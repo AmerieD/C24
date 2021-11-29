@@ -9,8 +9,8 @@ var canvas, angle, tower, ground, cannon;
 var cannonBall;
 
 function preload() {
-  backgroundImg = loadImage("./assets/background.gif");
-  towerImage = loadImage("./assets/tower.png");
+  backgroundImg = loadImage("assets/background.gif");
+  towerImage = loadImage("assets/tower.png");
 }
 
 function setup() {
